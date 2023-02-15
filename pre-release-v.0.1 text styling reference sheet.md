@@ -1,5 +1,6 @@
 
 this reference sheet is for the pre-release-v.0.1 of ☆ flawless
+_note: github does not display inline-html within markdown documents on the web, to be able to view this file properly either download the file, or copy and paste the raw contents into a new .md file within obsidian_
 ___
 
 ## Gradient Text!!
