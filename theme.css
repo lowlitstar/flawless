@@ -1,0 +1,611 @@
+/* 
+☆ flawless pre-release-v.0.1 for obsidian 1.0.0+ 
+  created by @sahdudeone
+  THIS THEME IS UNFINISHED 
+*/
+
+/* this section assigns solid colors to their respective css classes */
+.white {
+    color: #FFFFFF;
+}
+.silver {
+    color: #C0C0C0;
+}
+.gray {
+    color: #808080;
+}
+.black {
+    color: #000000;
+}
+.red {
+    color: #FF0000;
+}
+.maroon {
+    color: #800000;
+}
+.orange {
+    color: #F47E22;
+}
+.yellow {
+    color: #FFFF00;
+}
+.olive {
+    color: #808000;
+}
+.lime {
+    color: #00FF00;
+}
+.green {
+    color: #008000;
+}
+.aqua {
+    color: #00FFFF;
+}
+.teal {
+    color: #008080;
+}
+.blue {
+    color: #0000FF;
+}
+.navy {
+    color: #000080;
+}
+.fuchsia {
+    color: #FF00FF;
+}
+.purple {
+    color: #800080;
+}
+/* no limit to colors add more above this line if desired */
+
+/* this section defines classes for styling and writing gradient-colored text.*/ 
+.white-gray {
+background: linear-gradient(to right, #FFFFFF, #808080);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.white-black {
+background: linear-gradient(to right, #FFFFFF, #000000);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.white-red {
+background: linear-gradient(to right, #FFFFFF, #FF0000);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.white-orange {
+background: linear-gradient(to right, #FFFFFF, #F47E22);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.white-yellow {
+background: linear-gradient(to right, #FFFFFF, #FFFF00);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.white-lime {
+background: linear-gradient(to right, #FFFFFF, #00FF00);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.white-green {
+background: linear-gradient(to right, #FFFFFF, #008000);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.white-aqua {
+background: linear-gradient(to right, #FFFFFF, #00FFFF);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.white-blue {
+background: linear-gradient(to right, #FFFFFF, #0000FF);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.white-purple {
+background: linear-gradient(to right, #FFFFFF, #800080);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.gray-white {
+  background: linear-gradient(to right, #808080, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-black {
+  background: linear-gradient(to right, #808080, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-red {
+  background: linear-gradient(to right, #808080, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-orange {
+  background: linear-gradient(to right, #808080, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-yellow {
+  background: linear-gradient(to right, #808080, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-lime {
+  background: linear-gradient(to right, #808080, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-green {
+  background: linear-gradient(to right, #808080, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-aqua {
+  background: linear-gradient(to right, #808080, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-blue {
+  background: linear-gradient(to right, #808080, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-purple {
+  background: linear-gradient(to right, #808080, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-white {
+  background: linear-gradient(to right, #000000, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-gray {
+  background: linear-gradient(to right, #000000, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-red {
+  background: linear-gradient(to right, #000000, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-orange {
+  background: linear-gradient(to right, #000000, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-yellow {
+  background: linear-gradient(to right, #000000, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-lime {
+  background: linear-gradient(to right, #000000, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-green {
+  background: linear-gradient(to right, #000000, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-aqua {
+  background: linear-gradient(to right, #000000, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-blue {
+  background: linear-gradient(to right, #000000, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-purple {
+  background: linear-gradient(to right, #000000, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-white {
+  background: linear-gradient(to right, #FF0000, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-gray {
+  background: linear-gradient(to right, #FF0000, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-black {
+  background: linear-gradient(to right, #FF0000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-orange {
+  background: linear-gradient(to right, #FF0000, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-yellow {
+  background: linear-gradient(to right, #FF0000, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-lime {
+  background: linear-gradient(to right, #FF0000, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-green {
+  background: linear-gradient(to right, #FF0000, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-aqua {
+  background: linear-gradient(to right, #FF0000, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-blue {
+  background: linear-gradient(to right, #FF0000, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-purple {
+  background: linear-gradient(to right, #FF0000, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-white {
+  background: linear-gradient(to right, #F47E22, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-gray {
+  background: linear-gradient(to right, #F47E22, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-black {
+  background: linear-gradient(to right, #F47E22, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-red {
+  background: linear-gradient(to right, #F47E22, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-yellow {
+  background: linear-gradient(to right, #F47E22, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-lime {
+  background: linear-gradient(to right, #F47E22, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-green {
+  background: linear-gradient(to right, #F47E22, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-aqua {
+  background: linear-gradient(to right, #F47E22, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-blue {
+  background: linear-gradient(to right, #F47E22, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-purple {
+  background: linear-gradient(to right, #F47E22, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-white {
+  background: linear-gradient(to right, #FFFF00, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-gray {
+  background: linear-gradient(to right, #FFFF00, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-black {
+  background: linear-gradient(to right, #FFFF00, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-red {
+  background: linear-gradient(to right, #FFFF00, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-orange {
+  background: linear-gradient(to right, #FFFF00, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-lime {
+  background: linear-gradient(to right, #FFFF00, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-green {
+  background: linear-gradient(to right, #FFFF00, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-aqua {
+  background: linear-gradient(to right, #FFFF00, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-blue {
+  background: linear-gradient(to right, #FFFF00, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-purple {
+  background: linear-gradient(to right, #FFFF00, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-white {
+  background: linear-gradient(to right, #00FF00, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-gray {
+  background: linear-gradient(to right, #00FF00, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-black {
+  background: linear-gradient(to right, #00FF00, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-red {
+  background: linear-gradient(to right, #00FF00, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-orange {
+  background: linear-gradient(to right, #00FF00, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-yellow {
+  background: linear-gradient(to right, #00FF00, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-green {
+  background: linear-gradient(to right, #00FF00, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-aqua {
+  background: linear-gradient(to right, #00FF00, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-blue {
+  background: linear-gradient(to right, #00FF00, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-purple {
+  background: linear-gradient(to right, #00FF00, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-white {
+  background: linear-gradient(to right, #008000, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-gray {
+  background: linear-gradient(to right, #008000, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-black {
+  background: linear-gradient(to right, #008000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-red {
+  background: linear-gradient(to right, #008000, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-orange {
+  background: linear-gradient(to right, #008000, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-yellow {
+  background: linear-gradient(to right, #008000, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-lime {
+  background: linear-gradient(to right, #008000, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-aqua {
+  background: linear-gradient(to right, #008000, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-blue {
+  background: linear-gradient(to right, #008000, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-purple {
+  background: linear-gradient(to right, #008000, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-white {
+  background: linear-gradient(to right, #00FFFF, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-gray {
+  background: linear-gradient(to right, #00FFFF, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-black {
+  background: linear-gradient(to right, #00FFFF, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-red {
+  background: linear-gradient(to right, #00FFFF, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-orange {
+  background: linear-gradient(to right, #00FFFF, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-yellow {
+  background: linear-gradient(to right, #00FFFF, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-lime {
+  background: linear-gradient(to right, #00FFFF, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-green {
+  background: linear-gradient(to right, #00FFFF, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-blue {
+  background: linear-gradient(to right, #00FFFF, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-purple {
+  background: linear-gradient(to right, #00FFFF, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-white {
+  background: linear-gradient(to right, #0000FF, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-gray {
+  background: linear-gradient(to right, #0000FF, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-black {
+  background: linear-gradient(to right, #0000FF, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-red {
+  background: linear-gradient(to right, #0000FF, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-orange {
+  background: linear-gradient(to right, #0000FF, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-yellow {
+  background: linear-gradient(to right, #0000FF, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-lime {
+  background: linear-gradient(to right, #0000FF, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-green {
+  background: linear-gradient(to right, #0000FF, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-aqua {
+  background: linear-gradient(to right, #0000FF, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-purple {
+  background: linear-gradient(to right, #0000FF, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-white {
+  background: linear-gradient(to right, #800080, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-gray {
+  background: linear-gradient(to right, #800080, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-black {
+  background: linear-gradient(to right, #800080, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-red {
+  background: linear-gradient(to right, #800080, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-orange {
+  background: linear-gradient(to right, #800080, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-yellow {
+  background: linear-gradient(to right, #800080, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-lime {
+  background: linear-gradient(to right, #800080, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-green {
+  background: linear-gradient(to right, #800080, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-aqua {
+  background: linear-gradient(to right, #800080, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-blue {
+  background: linear-gradient(to right, #800080, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
