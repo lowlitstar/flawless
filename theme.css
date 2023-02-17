@@ -1,12 +1,20 @@
 /* 
-☆ flawless pre-release-v.0.1 for obsidian 1.0.0+ 
+☆ flawless pre-release-v.0.2 for obsidian 1.0.0+ 
   created by @sahdudeone
   THIS THEME IS UNFINISHED 
   reference sheet for inline-html styling:
   https://publish.obsidian.md/sahdudeone/%E2%98%85+flawless/%E2%98%86+flawless+styling+guide
 */
 
-/* this section assigns solid colors to their respective css classes */
+.inline-title {
+  --color-base-70: linear-gradient(to top right, #e3af78, #ff4040);
+  background: var(--color-base-70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 6px rgba(208, 0, 0, 0.3);
+}
+
+/* this section defines css classes to allow for styling solid-colored text*/
 .white {
     color: #FFFFFF;
 }
@@ -58,9 +66,8 @@
 .purple {
     color: #800080;
 }
-/* no limit to colors add more above this line if desired */
 
-/* this section defines classes for styling and writing gradient-colored text.*/ 
+/* this section defines css classes for styling gradient-colored text.*/ 
 .white-gray {
 background: linear-gradient(to right, #FFFFFF, #808080);
 -webkit-background-clip: text;
