@@ -1,70 +1,76 @@
 /* 
-☆ flawless pre-release-v.0.2 for obsidian 1.0.0+ 
+☆ flawless pre-release-v.0.3 for obsidian 1.0.0+ 
   created by @sahdudeone
-  THIS THEME IS UNFINISHED 
   reference sheet for inline-html styling:
   https://publish.obsidian.md/sahdudeone/%E2%98%85+flawless/%E2%98%86+flawless+styling+guide
 */
 
-.inline-title {
-  --color-base-70: linear-gradient(to top right, #e3af78, #ff4040);
-  background: var(--color-base-70);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 6px rgba(208, 0, 0, 0.3);
+.theme-dark {
+  --color-base-00: #210f04;
+  --color-base-10: #332107;
+  --color-base-20: #452103;
+  --color-base-25: #571300;
+  --color-base-30: #562d1b;
+  --color-base-35: #5b2f1b;
+  --color-base-40: #934b00;
+  --color-base-50: #a75b00;
+  --color-base-60: #bb6b00;
+  --color-base-70: #ffb14c;
+  --color-base-100: #ffc774;
 }
+
 
 /* this section defines css classes to allow for styling solid-colored text*/
 .white {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 .silver {
-    color: #C0C0C0;
+  color: #C0C0C0;
 }
 .gray {
-    color: #808080;
+  color: #808080;
 }
 .black {
-    color: #000000;
+  color: #000000;
 }
 .red {
-    color: #FF0000;
+  color: #FF0000;
 }
 .maroon {
-    color: #800000;
+  color: #800000;
 }
 .orange {
-    color: #F47E22;
+  color: #F47E22;
 }
 .yellow {
-    color: #FFFF00;
+  color: #FFFF00;
 }
 .olive {
-    color: #808000;
+  color: #808000;
 }
 .lime {
-    color: #00FF00;
+  color: #00FF00;
 }
 .green {
-    color: #008000;
+  color: #008000;
 }
 .aqua {
-    color: #00FFFF;
+  color: #00FFFF;
 }
 .teal {
-    color: #008080;
+  color: #008080;
 }
 .blue {
-    color: #0000FF;
+  color: #0000FF;
 }
 .navy {
-    color: #000080;
+  color: #000080;
 }
 .fuchsia {
-    color: #FF00FF;
+  color: #FF00FF;
 }
 .purple {
-    color: #800080;
+  color: #800080;
 }
 
 /* this section defines css classes for styling gradient-colored text.*/ 
