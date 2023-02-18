@@ -1,4 +1,4 @@
-☆ flawless pre-release-v.0.3 for obsidian 1.0.0+ 
+☆ flawless pre-release-v.0.3.1 for obsidian 1.0.0+ 
   created by @sahdudeone
   !! this theme is currently unfinished !!
 
