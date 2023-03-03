@@ -1,5 +1,5 @@
 /* 
-☆ flawless pre-release-v.0.3.4 for obsidian 1.0.0+ 
+☆ flawless pre-release-vert.0.4.0 for obsidian 1.0.0+ 
   created by @sahdudeone
   reference sheet for inline-html styling:
   https://publish.obsidian.md/sahdudeone/%E2%98%85+flawless/%E2%98%86+flawless+styling+guide
@@ -641,3 +641,557 @@ background: linear-gradient(to right, #FFFFFF, #800080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* this section is the same, but for vertical gradients.*/ 
+
+.white-gray-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .white-black-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .white-red-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .white-orange-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .white-yellow-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .white-lime-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .white-green-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .white-aqua-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .white-blue-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .white-purple-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .gray-white-vert {
+    background: linear-gradient(to bottom, #808080, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gray-black-vert {
+    background: linear-gradient(to bottom, #808080, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gray-red-vert {
+    background: linear-gradient(to bottom, #808080, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gray-orange-vert {
+    background: linear-gradient(to bottom, #808080, #F47E22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gray-yellow-vert {
+    background: linear-gradient(to bottom, #808080, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gray-lime-vert {
+    background: linear-gradient(to bottom, #808080, #00FF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gray-green-vert {
+    background: linear-gradient(to bottom, #808080, #008000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gray-aqua-vert {
+    background: linear-gradient(to bottom, #808080, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gray-blue-vert {
+    background: linear-gradient(to bottom, #808080, #0000FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gray-purple-vert {
+    background: linear-gradient(to bottom, #808080, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .black-white-vert {
+    background: linear-gradient(to bottom, #000000, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .black-gray-vert {
+    background: linear-gradient(to bottom, #000000, #808080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .black-red-vert {
+    background: linear-gradient(to bottom, #000000, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .black-orange-vert {
+    background: linear-gradient(to bottom, #000000, #F47E22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .black-yellow-vert {
+    background: linear-gradient(to bottom, #000000, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .black-lime-vert {
+    background: linear-gradient(to bottom, #000000, #00FF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .black-green-vert {
+    background: linear-gradient(to bottom, #000000, #008000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .black-aqua-vert {
+    background: linear-gradient(to bottom, #000000, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .black-blue-vert {
+    background: linear-gradient(to bottom, #000000, #0000FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .black-purple-vert {
+    background: linear-gradient(to bottom, #000000, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .red-white-vert {
+    background: linear-gradient(to bottom, #FF0000, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .red-gray-vert {
+    background: linear-gradient(to bottom, #FF0000, #808080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .red-black-vert {
+    background: linear-gradient(to bottom, #FF0000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .red-orange-vert {
+    background: linear-gradient(to bottom, #FF0000, #F47E22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .red-yellow-vert {
+    background: linear-gradient(to bottom, #FF0000, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .red-lime-vert {
+    background: linear-gradient(to bottom, #FF0000, #00FF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .red-green-vert {
+    background: linear-gradient(to bottom, #FF0000, #008000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .red-aqua-vert {
+    background: linear-gradient(to bottom, #FF0000, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .red-blue-vert {
+    background: linear-gradient(to bottom, #FF0000, #0000FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .red-purple-vert {
+    background: linear-gradient(to bottom, #FF0000, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .orange-white-vert {
+    background: linear-gradient(to bottom, #F47E22, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .orange-gray-vert {
+    background: linear-gradient(to bottom, #F47E22, #808080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .orange-black-vert {
+    background: linear-gradient(to bottom, #F47E22, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .orange-red-vert {
+    background: linear-gradient(to bottom, #F47E22, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .orange-yellow-vert {
+    background: linear-gradient(to bottom, #F47E22, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .orange-lime-vert {
+    background: linear-gradient(to bottom, #F47E22, #00FF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .orange-green-vert {
+    background: linear-gradient(to bottom, #F47E22, #008000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .orange-aqua-vert {
+    background: linear-gradient(to bottom, #F47E22, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .orange-blue-vert {
+    background: linear-gradient(to bottom, #F47E22, #0000FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .orange-purple-vert {
+    background: linear-gradient(to bottom, #F47E22, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .yellow-white-vert {
+    background: linear-gradient(to bottom, #FFFF00, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .yellow-gray-vert {
+    background: linear-gradient(to bottom, #FFFF00, #808080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .yellow-black-vert {
+    background: linear-gradient(to bottom, #FFFF00, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .yellow-red-vert {
+    background: linear-gradient(to bottom, #FFFF00, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .yellow-orange-vert {
+    background: linear-gradient(to bottom, #FFFF00, #F47E22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .yellow-lime-vert {
+    background: linear-gradient(to bottom, #FFFF00, #00FF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .yellow-green-vert {
+    background: linear-gradient(to bottom, #FFFF00, #008000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .yellow-aqua-vert {
+    background: linear-gradient(to bottom, #FFFF00, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .yellow-blue-vert {
+    background: linear-gradient(to bottom, #FFFF00, #0000FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .yellow-purple-vert {
+    background: linear-gradient(to bottom, #FFFF00, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .lime-white-vert {
+    background: linear-gradient(to bottom, #00FF00, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .lime-gray-vert {
+    background: linear-gradient(to bottom, #00FF00, #808080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .lime-black-vert {
+    background: linear-gradient(to bottom, #00FF00, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .lime-red-vert {
+    background: linear-gradient(to bottom, #00FF00, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .lime-orange-vert {
+    background: linear-gradient(to bottom, #00FF00, #F47E22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .lime-yellow-vert {
+    background: linear-gradient(to bottom, #00FF00, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .lime-green-vert {
+    background: linear-gradient(to bottom, #00FF00, #008000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .lime-aqua-vert {
+    background: linear-gradient(to bottom, #00FF00, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .lime-blue-vert {
+    background: linear-gradient(to bottom, #00FF00, #0000FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .lime-purple-vert {
+    background: linear-gradient(to bottom, #00FF00, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .green-white-vert {
+    background: linear-gradient(to bottom, #008000, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .green-gray-vert {
+    background: linear-gradient(to bottom, #008000, #808080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .green-black-vert {
+    background: linear-gradient(to bottom, #008000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .green-red-vert {
+    background: linear-gradient(to bottom, #008000, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .green-orange-vert {
+    background: linear-gradient(to bottom, #008000, #F47E22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .green-yellow-vert {
+    background: linear-gradient(to bottom, #008000, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .green-lime-vert {
+    background: linear-gradient(to bottom, #008000, #00FF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .green-aqua-vert {
+    background: linear-gradient(to bottom, #008000, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .green-blue-vert {
+    background: linear-gradient(to bottom, #008000, #0000FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .green-purple-vert {
+    background: linear-gradient(to bottom, #008000, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .aqua-white-vert {
+    background: linear-gradient(to bottom, #00FFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .aqua-gray-vert {
+    background: linear-gradient(to bottom, #00FFFF, #808080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .aqua-black-vert {
+    background: linear-gradient(to bottom, #00FFFF, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .aqua-red-vert {
+    background: linear-gradient(to bottom, #00FFFF, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .aqua-orange-vert {
+    background: linear-gradient(to bottom, #00FFFF, #F47E22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .aqua-yellow-vert {
+    background: linear-gradient(to bottom, #00FFFF, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .aqua-lime-vert {
+    background: linear-gradient(to bottom, #00FFFF, #00FF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .aqua-green-vert {
+    background: linear-gradient(to bottom, #00FFFF, #008000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .aqua-blue-vert {
+    background: linear-gradient(to bottom, #00FFFF, #0000FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .aqua-purple-vert {
+    background: linear-gradient(to bottom, #00FFFF, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blue-white-vert {
+    background: linear-gradient(to bottom, #0000FF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blue-gray-vert {
+    background: linear-gradient(to bottom, #0000FF, #808080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blue-black-vert {
+    background: linear-gradient(to bottom, #0000FF, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blue-red-vert {
+    background: linear-gradient(to bottom, #0000FF, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blue-orange-vert {
+    background: linear-gradient(to bottom, #0000FF, #F47E22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blue-yellow-vert {
+    background: linear-gradient(to bottom, #0000FF, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blue-lime-vert {
+    background: linear-gradient(to bottom, #0000FF, #00FF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blue-green-vert {
+    background: linear-gradient(to bottom, #0000FF, #008000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blue-aqua-vert {
+    background: linear-gradient(to bottom, #0000FF, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blue-purple-vert {
+    background: linear-gradient(to bottom, #0000FF, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .purple-white-vert {
+    background: linear-gradient(to bottom, #800080, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .purple-gray-vert {
+    background: linear-gradient(to bottom, #800080, #808080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .purple-black-vert {
+    background: linear-gradient(to bottom, #800080, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .purple-red-vert {
+    background: linear-gradient(to bottom, #800080, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .purple-orange-vert {
+    background: linear-gradient(to bottom, #800080, #F47E22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .purple-yellow-vert {
+    background: linear-gradient(to bottom, #800080, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .purple-lime-vert {
+    background: linear-gradient(to bottom, #800080, #00FF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .purple-green-vert {
+    background: linear-gradient(to bottom, #800080, #008000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .purple-aqua-vert {
+    background: linear-gradient(to bottom, #800080, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .purple-blue-vert {
+    background: linear-gradient(to bottom, #800080, #0000FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
