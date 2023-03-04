@@ -1,5 +1,5 @@
 /* 
-☆ flawless pre-release-vert.0.4.0 for obsidian 1.0.0+ 
+☆ flawless pre-release-vert.0.4.1 for obsidian 1.0.0+ 
   created by @sahdudeone
   reference sheet for inline-html styling:
   https://publish.obsidian.md/sahdudeone/%E2%98%85+flawless/%E2%98%86+flawless+styling+guide
@@ -88,6 +88,12 @@
 }
 .purple {
   color: #800080;
+}
+.chenin {
+  color: #e3df7a;
+}
+.emerald {
+  color: #4fcc73;
 }
 
 /* this section defines css classes for styling gradient-colored text.*/ 
