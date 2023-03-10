@@ -1,5 +1,5 @@
 /* 
-☆ flawless pre-release-v0.5 for obsidian 1.0.0+ 
+☆ flawless pre-release-v0.5.1 for obsidian 1.0.0+ 
   created by @sahdudeone
   reference sheet for inline-html styling:
   https://publish.obsidian.md/sahdudeone/%E2%98%85+flawless/%E2%98%86+flawless+styling+guide
@@ -87,7 +87,7 @@
 .navy {
   color: #000080;
 }
-.fuchsia {
+.magenta {
   color: #FF00FF;
 }
 .purple {
@@ -137,6 +137,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.white-chenin {
+  background: linear-gradient(to right, #FFFFFF, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .white-olive {
   background: linear-gradient(to right, #FFFFFF, #808000);
   -webkit-background-clip: text;
@@ -152,13 +157,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.white-aqua {
-  background: linear-gradient(to right, #FFFFFF, #00FFFF);
+.white-emerald {
+  background: linear-gradient(to right, #FFFFFF, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .white-teal {
   background: linear-gradient(to right, #FFFFFF, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.white-aqua {
+  background: linear-gradient(to right, #FFFFFF, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -172,23 +182,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.white-fuchsia {
+.white-magenta {
   background: linear-gradient(to right, #FFFFFF, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .white-purple {
   background: linear-gradient(to right, #FFFFFF, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.white-chenin {
-  background: linear-gradient(to right, #FFFFFF, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.white-emerald {
-  background: linear-gradient(to right, #FFFFFF, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -227,6 +227,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.silver-chenin {
+  background: linear-gradient(to right, #C0C0C0, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .silver-olive {
   background: linear-gradient(to right, #C0C0C0, #808000);
   -webkit-background-clip: text;
@@ -242,13 +247,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.silver-aqua {
-  background: linear-gradient(to right, #C0C0C0, #00FFFF);
+.silver-emerald {
+  background: linear-gradient(to right, #C0C0C0, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .silver-teal {
   background: linear-gradient(to right, #C0C0C0, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.silver-aqua {
+  background: linear-gradient(to right, #C0C0C0, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -262,23 +272,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.silver-fuchsia {
+.silver-magenta {
   background: linear-gradient(to right, #C0C0C0, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .silver-purple {
   background: linear-gradient(to right, #C0C0C0, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.silver-chenin {
-  background: linear-gradient(to right, #C0C0C0, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.silver-emerald {
-  background: linear-gradient(to right, #C0C0C0, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -317,6 +317,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.gray-chenin {
+  background: linear-gradient(to right, #808080, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .gray-olive {
   background: linear-gradient(to right, #808080, #808000);
   -webkit-background-clip: text;
@@ -332,13 +337,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.gray-aqua {
-  background: linear-gradient(to right, #808080, #00FFFF);
+.gray-emerald {
+  background: linear-gradient(to right, #808080, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .gray-teal {
   background: linear-gradient(to right, #808080, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-aqua {
+  background: linear-gradient(to right, #808080, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -352,23 +362,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.gray-fuchsia {
+.gray-magenta {
   background: linear-gradient(to right, #808080, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .gray-purple {
   background: linear-gradient(to right, #808080, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.gray-chenin {
-  background: linear-gradient(to right, #808080, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.gray-emerald {
-  background: linear-gradient(to right, #808080, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -407,6 +407,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.black-chenin {
+  background: linear-gradient(to right, #000000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .black-olive {
   background: linear-gradient(to right, #000000, #808000);
   -webkit-background-clip: text;
@@ -422,13 +427,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.black-aqua {
-  background: linear-gradient(to right, #000000, #00FFFF);
+.black-emerald {
+  background: linear-gradient(to right, #000000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .black-teal {
   background: linear-gradient(to right, #000000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-aqua {
+  background: linear-gradient(to right, #000000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -442,23 +452,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.black-fuchsia {
+.black-magenta {
   background: linear-gradient(to right, #000000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .black-purple {
   background: linear-gradient(to right, #000000, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.black-chenin {
-  background: linear-gradient(to right, #000000, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.black-emerald {
-  background: linear-gradient(to right, #000000, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -497,6 +497,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.red-chenin {
+  background: linear-gradient(to right, #FF0000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .red-olive {
   background: linear-gradient(to right, #FF0000, #808000);
   -webkit-background-clip: text;
@@ -512,13 +517,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.red-aqua {
-  background: linear-gradient(to right, #FF0000, #00FFFF);
+.red-emerald {
+  background: linear-gradient(to right, #FF0000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .red-teal {
   background: linear-gradient(to right, #FF0000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-aqua {
+  background: linear-gradient(to right, #FF0000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -532,23 +542,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.red-fuchsia {
+.red-magenta {
   background: linear-gradient(to right, #FF0000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .red-purple {
   background: linear-gradient(to right, #FF0000, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.red-chenin {
-  background: linear-gradient(to right, #FF0000, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.red-emerald {
-  background: linear-gradient(to right, #FF0000, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -587,6 +587,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.maroon-chenin {
+  background: linear-gradient(to right, #800000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .maroon-olive {
   background: linear-gradient(to right, #800000, #808000);
   -webkit-background-clip: text;
@@ -602,13 +607,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maroon-aqua {
-  background: linear-gradient(to right, #800000, #00FFFF);
+.maroon-emerald {
+  background: linear-gradient(to right, #800000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .maroon-teal {
   background: linear-gradient(to right, #800000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.maroon-aqua {
+  background: linear-gradient(to right, #800000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -622,23 +632,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maroon-fuchsia {
+.maroon-magenta {
   background: linear-gradient(to right, #800000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .maroon-purple {
   background: linear-gradient(to right, #800000, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.maroon-chenin {
-  background: linear-gradient(to right, #800000, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.maroon-emerald {
-  background: linear-gradient(to right, #800000, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -667,13 +667,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.orange-maroon {
-  background: linear-gradient(to right, #F47E22, #800000);
+.orange-yellow {
+  background: linear-gradient(to right, #F47E22, #FFFF00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.orange-yellow {
-  background: linear-gradient(to right, #F47E22, #FFFF00);
+.orange-chenin {
+  background: linear-gradient(to right, #F47E22, #E3DF7A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -692,13 +692,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.orange-aqua {
-  background: linear-gradient(to right, #F47E22, #00FFFF);
+.orange-emerald {
+  background: linear-gradient(to right, #F47E22, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .orange-teal {
   background: linear-gradient(to right, #F47E22, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-aqua {
+  background: linear-gradient(to right, #F47E22, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -712,23 +717,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.orange-fuchsia {
+.orange-magenta {
   background: linear-gradient(to right, #F47E22, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .orange-purple {
   background: linear-gradient(to right, #F47E22, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.orange-chenin {
-  background: linear-gradient(to right, #F47E22, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.orange-emerald {
-  background: linear-gradient(to right, #F47E22, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -767,6 +762,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.yellow-chenin {
+  background: linear-gradient(to right, #FFFF00, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .yellow-olive {
   background: linear-gradient(to right, #FFFF00, #808000);
   -webkit-background-clip: text;
@@ -782,13 +782,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-aqua {
-  background: linear-gradient(to right, #FFFF00, #00FFFF);
+.yellow-emerald {
+  background: linear-gradient(to right, #FFFF00, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .yellow-teal {
   background: linear-gradient(to right, #FFFF00, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-aqua {
+  background: linear-gradient(to right, #FFFF00, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -802,7 +807,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-fuchsia {
+.yellow-magenta {
   background: linear-gradient(to right, #FFFF00, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -812,13 +817,93 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-chenin {
-  background: linear-gradient(to right, #FFFF00, #e3df7a);
+.chenin-white {
+  background: linear-gradient(to right, #E3DF7A, #FFFFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-emerald {
-  background: linear-gradient(to right, #FFFF00, #4fcc73);
+.chenin-silver {
+  background: linear-gradient(to right, #E3DF7A, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-gray {
+  background: linear-gradient(to right, #E3DF7A, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-black {
+  background: linear-gradient(to right, #E3DF7A, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-red {
+  background: linear-gradient(to right, #E3DF7A, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-maroon {
+  background: linear-gradient(to right, #E3DF7A, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-orange {
+  background: linear-gradient(to right, #E3DF7A, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-yellow {
+  background: linear-gradient(to right, #E3DF7A, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-olive {
+  background: linear-gradient(to right, #E3DF7A, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-lime {
+  background: linear-gradient(to right, #E3DF7A, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-green {
+  background: linear-gradient(to right, #E3DF7A, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-emerald {
+  background: linear-gradient(to right, #E3DF7A, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-teal {
+  background: linear-gradient(to right, #E3DF7A, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-aqua {
+  background: linear-gradient(to right, #E3DF7A, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-blue {
+  background: linear-gradient(to right, #E3DF7A, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-navy {
+  background: linear-gradient(to right, #E3DF7A, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-magenta {
+  background: linear-gradient(to right, #E3DF7A, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-purple {
+  background: linear-gradient(to right, #E3DF7A, #800080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -862,6 +947,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.olive-chenin {
+  background: linear-gradient(to right, #808000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .olive-lime {
   background: linear-gradient(to right, #808000, #00FF00);
   -webkit-background-clip: text;
@@ -872,13 +962,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.olive-aqua {
-  background: linear-gradient(to right, #808000, #00FFFF);
+.olive-emerald {
+  background: linear-gradient(to right, #808000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .olive-teal {
   background: linear-gradient(to right, #808000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.olive-aqua {
+  background: linear-gradient(to right, #808000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -892,23 +987,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.olive-fuchsia {
+.olive-magenta {
   background: linear-gradient(to right, #808000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .olive-purple {
   background: linear-gradient(to right, #808000, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.olive-chenin {
-  background: linear-gradient(to right, #808000, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.olive-emerald {
-  background: linear-gradient(to right, #808000, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -952,6 +1037,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.lime-chenin {
+  background: linear-gradient(to right, #00FF00, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .lime-olive {
   background: linear-gradient(to right, #00FF00, #808000);
   -webkit-background-clip: text;
@@ -962,13 +1052,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.lime-aqua {
-  background: linear-gradient(to right, #00FF00, #00FFFF);
+.lime-emerald {
+  background: linear-gradient(to right, #00FF00, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .lime-teal {
   background: linear-gradient(to right, #00FF00, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-aqua {
+  background: linear-gradient(to right, #00FF00, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -982,23 +1077,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.lime-fuchsia {
+.lime-magenta {
   background: linear-gradient(to right, #00FF00, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .lime-purple {
   background: linear-gradient(to right, #00FF00, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.lime-chenin {
-  background: linear-gradient(to right, #00FF00, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.lime-emerald {
-  background: linear-gradient(to right, #00FF00, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1042,6 +1127,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.green-chenin {
+  background: linear-gradient(to right, #008000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .green-olive {
   background: linear-gradient(to right, #008000, #808000);
   -webkit-background-clip: text;
@@ -1052,13 +1142,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.green-aqua {
-  background: linear-gradient(to right, #008000, #00FFFF);
+.green-emerald {
+  background: linear-gradient(to right, #008000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .green-teal {
   background: linear-gradient(to right, #008000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-aqua {
+  background: linear-gradient(to right, #008000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1072,7 +1167,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.green-fuchsia {
+.green-magenta {
   background: linear-gradient(to right, #008000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1082,103 +1177,543 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.green-chenin {
-  background: linear-gradient(to right, #008000, #e3df7a);
+.emerald-white {
+  background: linear-gradient(to right, #4FCC73, #FFFFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.green-emerald {
-  background: linear-gradient(to right, #008000, #4fcc73);
+.emerald-silver {
+  background: linear-gradient(to right, #4FCC73, #C0C0C0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-white {
+.emerald-gray {
+  background: linear-gradient(to right, #4FCC73, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-black {
+  background: linear-gradient(to right, #4FCC73, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-red {
+  background: linear-gradient(to right, #4FCC73, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-maroon {
+  background: linear-gradient(to right, #4FCC73, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-orange {
+  background: linear-gradient(to right, #4FCC73, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-yellow {
+  background: linear-gradient(to right, #4FCC73, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-chenin {
+  background: linear-gradient(to right, #4FCC73, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-olive {
+  background: linear-gradient(to right, #4FCC73, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-lime {
+  background: linear-gradient(to right, #4FCC73, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-green {
+  background: linear-gradient(to right, #4FCC73, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-teal {
+  background: linear-gradient(to right, #4FCC73, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-aqua {
+  background: linear-gradient(to right, #4FCC73, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-blue {
+  background: linear-gradient(to right, #4FCC73, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-navy {
+  background: linear-gradient(to right, #4FCC73, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-magenta {
+  background: linear-gradient(to right, #4FCC73, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-purple {
+  background: linear-gradient(to right, #4FCC73, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-white {
+  background: linear-gradient(to right, #008080, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-silver {
+  background: linear-gradient(to right, #008080, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-gray {
+  background: linear-gradient(to right, #008080, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-black {
+  background: linear-gradient(to right, #008080, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-red {
+  background: linear-gradient(to right, #008080, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-maroon {
+  background: linear-gradient(to right, #008080, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-orange {
+  background: linear-gradient(to right, #008080, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-yellow {
+  background: linear-gradient(to right, #008080, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-chenin {
+  background: linear-gradient(to right, #008080, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-olive {
+  background: linear-gradient(to right, #008080, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-lime {
+  background: linear-gradient(to right, #008080, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-green {
+  background: linear-gradient(to right, #008080, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-emerald {
+  background: linear-gradient(to right, #008080, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-aqua {
+  background: linear-gradient(to right, #008080, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-blue {
+  background: linear-gradient(to right, #008080, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-navy {
+  background: linear-gradient(to right, #008080, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-magenta {
+  background: linear-gradient(to right, #008080, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-purple {
+  background: linear-gradient(to right, #008080, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-white {
+  background: linear-gradient(to right, #00FFFF, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-silver {
+  background: linear-gradient(to right, #00FFFF, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-gray {
+  background: linear-gradient(to right, #00FFFF, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-black {
+  background: linear-gradient(to right, #00FFFF, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-red {
+  background: linear-gradient(to right, #00FFFF, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-maroon {
+  background: linear-gradient(to right, #00FFFF, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-orange {
+  background: linear-gradient(to right, #00FFFF, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-yellow {
+  background: linear-gradient(to right, #00FFFF, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-chenin {
+  background: linear-gradient(to right, #00FFFF, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-olive {
+  background: linear-gradient(to right, #00FFFF, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-lime {
+  background: linear-gradient(to right, #00FFFF, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-green {
+  background: linear-gradient(to right, #00FFFF, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-emerald {
+  background: linear-gradient(to right, #00FFFF, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-teal {
+  background: linear-gradient(to right, #00FFFF, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-blue {
+  background: linear-gradient(to right, #00FFFF, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-navy {
+  background: linear-gradient(to right, #00FFFF, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-magenta {
+  background: linear-gradient(to right, #00FFFF, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-purple {
+  background: linear-gradient(to right, #00FFFF, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-white {
+  background: linear-gradient(to right, #0000FF, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-silver {
+  background: linear-gradient(to right, #0000FF, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-gray {
+  background: linear-gradient(to right, #0000FF, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-black {
+  background: linear-gradient(to right, #0000FF, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-red {
+  background: linear-gradient(to right, #0000FF, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-maroon {
+  background: linear-gradient(to right, #0000FF, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-orange {
+  background: linear-gradient(to right, #0000FF, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-yellow {
+  background: linear-gradient(to right, #0000FF, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-chenin {
+  background: linear-gradient(to right, #0000FF, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-olive {
+  background: linear-gradient(to right, #0000FF, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-lime {
+  background: linear-gradient(to right, #0000FF, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-green {
+  background: linear-gradient(to right, #0000FF, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-emerald {
+  background: linear-gradient(to right, #0000FF, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-teal {
+  background: linear-gradient(to right, #0000FF, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-aqua {
+  background: linear-gradient(to right, #0000FF, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-navy {
+  background: linear-gradient(to right, #0000FF, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-magenta {
+  background: linear-gradient(to right, #0000FF, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-purple {
+  background: linear-gradient(to right, #0000FF, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-white {
+  background: linear-gradient(to right, #000080, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-silver {
+  background: linear-gradient(to right, #000080, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-gray {
+  background: linear-gradient(to right, #000080, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-black {
+  background: linear-gradient(to right, #000080, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-red {
+  background: linear-gradient(to right, #000080, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-maroon {
+  background: linear-gradient(to right, #000080, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-orange {
+  background: linear-gradient(to right, #000080, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-yellow {
+  background: linear-gradient(to right, #000080, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-chenin {
+  background: linear-gradient(to right, #000080, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-olive {
+  background: linear-gradient(to right, #000080, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-lime {
+  background: linear-gradient(to right, #000080, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-green {
+  background: linear-gradient(to right, #000080, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-emerald {
+  background: linear-gradient(to right, #000080, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-teal {
+  background: linear-gradient(to right, #000080, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-aqua {
+  background: linear-gradient(to right, #000080, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-blue {
+  background: linear-gradient(to right, #000080, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-magenta {
+  background: linear-gradient(to right, #000080, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-purple {
+  background: linear-gradient(to right, #000080, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.magenta-white {
   background: linear-gradient(to right, #FF00FF, #FFFFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-silver {
+.magenta-silver {
   background: linear-gradient(to right, #FF00FF, #C0C0C0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-gray {
+.magenta-gray {
   background: linear-gradient(to right, #FF00FF, #808080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-black {
+.magenta-black {
   background: linear-gradient(to right, #FF00FF, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-red {
+.magenta-red {
   background: linear-gradient(to right, #FF00FF, #FF0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-maroon {
+.magenta-maroon {
   background: linear-gradient(to right, #FF00FF, #800000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-orange {
+.magenta-orange {
   background: linear-gradient(to right, #FF00FF, #F47E22);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-yellow {
+.magenta-yellow {
   background: linear-gradient(to right, #FF00FF, #FFFF00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-olive {
+.magenta-chenin {
+  background: linear-gradient(to right, #FF00FF, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.magenta-olive {
   background: linear-gradient(to right, #FF00FF, #808000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-lime {
+.magenta-lime {
   background: linear-gradient(to right, #FF00FF, #00FF00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-green {
+.magenta-green {
   background: linear-gradient(to right, #FF00FF, #008000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-aqua {
-  background: linear-gradient(to right, #FF00FF, #00FFFF);
+.magenta-emerald {
+  background: linear-gradient(to right, #FF00FF, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-teal {
+.magenta-teal {
   background: linear-gradient(to right, #FF00FF, #008080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-blue {
+.magenta-aqua {
+  background: linear-gradient(to right, #FF00FF, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.magenta-blue {
   background: linear-gradient(to right, #FF00FF, #0000FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-navy {
+.magenta-navy {
   background: linear-gradient(to right, #FF00FF, #000080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-purple {
+.magenta-purple {
   background: linear-gradient(to right, #FF00FF, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.fuchsia-chenin {
-  background: linear-gradient(to right, #FF00FF, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.fuchsia-emerald {
-  background: linear-gradient(to right, #FF00FF, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1222,6 +1757,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.purple-chenin {
+  background: linear-gradient(to right, #800080, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .purple-olive {
   background: linear-gradient(to right, #800080, #808000);
   -webkit-background-clip: text;
@@ -1237,13 +1777,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.purple-aqua {
-  background: linear-gradient(to right, #800080, #00FFFF);
+.purple-emerald {
+  background: linear-gradient(to right, #800080, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .purple-teal {
   background: linear-gradient(to right, #800080, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-aqua {
+  background: linear-gradient(to right, #800080, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1257,198 +1802,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.purple-fuchsia {
+.purple-magenta {
   background: linear-gradient(to right, #800080, #FF00FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.purple-chenin {
-  background: linear-gradient(to right, #800080, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.purple-emerald {
-  background: linear-gradient(to right, #800080, #4fcc73);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-white {
-  background: linear-gradient(to right, #e3df7a, #FFFFFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-silver {
-  background: linear-gradient(to right, #e3df7a, #C0C0C0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-gray {
-  background: linear-gradient(to right, #e3df7a, #808080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-black {
-  background: linear-gradient(to right, #e3df7a, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-red {
-  background: linear-gradient(to right, #e3df7a, #FF0000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-maroon {
-  background: linear-gradient(to right, #e3df7a, #800000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-orange {
-  background: linear-gradient(to right, #e3df7a, #F47E22);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-yellow {
-  background: linear-gradient(to right, #e3df7a, #FFFF00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-olive {
-  background: linear-gradient(to right, #e3df7a, #808000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-lime {
-  background: linear-gradient(to right, #e3df7a, #00FF00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-green {
-  background: linear-gradient(to right, #e3df7a, #008000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-aqua {
-  background: linear-gradient(to right, #e3df7a, #00FFFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-teal {
-  background: linear-gradient(to right, #e3df7a, #008080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-blue {
-  background: linear-gradient(to right, #e3df7a, #0000FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-navy {
-  background: linear-gradient(to right, #e3df7a, #000080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-fuchsia {
-  background: linear-gradient(to right, #e3df7a, #FF00FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-purple {
-  background: linear-gradient(to right, #e3df7a, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-emerald {
-  background: linear-gradient(to right, #e3df7a, #4fcc73);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-white {
-  background: linear-gradient(to right, #4fcc73, #FFFFFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-silver {
-  background: linear-gradient(to right, #4fcc73, #C0C0C0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-gray {
-  background: linear-gradient(to right, #4fcc73, #808080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-black {
-  background: linear-gradient(to right, #4fcc73, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-red {
-  background: linear-gradient(to right, #4fcc73, #FF0000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-maroon {
-  background: linear-gradient(to right, #4fcc73, #800000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-orange {
-  background: linear-gradient(to right, #4fcc73, #F47E22);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-yellow {
-  background: linear-gradient(to right, #4fcc73, #FFFF00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-olive {
-  background: linear-gradient(to right, #4fcc73, #808000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-lime {
-  background: linear-gradient(to right, #4fcc73, #00FF00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-green {
-  background: linear-gradient(to right, #4fcc73, #008000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-aqua {
-  background: linear-gradient(to right, #4fcc73, #00FFFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-teal {
-  background: linear-gradient(to right, #4fcc73, #008080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-blue {
-  background: linear-gradient(to right, #4fcc73, #0000FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-navy {
-  background: linear-gradient(to right, #4fcc73, #000080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-fuchsia {
-  background: linear-gradient(to right, #4fcc73, #FF00FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-purple {
-  background: linear-gradient(to right, #4fcc73, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-chenin {
-  background: linear-gradient(to right, #4fcc73, #e3df7a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1490,6 +1845,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.white-chenin-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .white-olive-vert {
   background: linear-gradient(to bottom, #FFFFFF, #808000);
   -webkit-background-clip: text;
@@ -1505,13 +1865,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.white-aqua-vert {
-  background: linear-gradient(to bottom, #FFFFFF, #00FFFF);
+.white-emerald-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .white-teal-vert {
   background: linear-gradient(to bottom, #FFFFFF, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.white-aqua-vert {
+  background: linear-gradient(to bottom, #FFFFFF, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1525,23 +1890,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.white-fuchsia-vert {
+.white-magenta-vert {
   background: linear-gradient(to bottom, #FFFFFF, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .white-purple-vert {
   background: linear-gradient(to bottom, #FFFFFF, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.white-chenin-vert {
-  background: linear-gradient(to bottom, #FFFFFF, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.white-emerald-vert {
-  background: linear-gradient(to bottom, #FFFFFF, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1580,6 +1935,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.silver-chenin-vert {
+  background: linear-gradient(to bottom, #C0C0C0, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .silver-olive-vert {
   background: linear-gradient(to bottom, #C0C0C0, #808000);
   -webkit-background-clip: text;
@@ -1595,13 +1955,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.silver-aqua-vert {
-  background: linear-gradient(to bottom, #C0C0C0, #00FFFF);
+.silver-emerald-vert {
+  background: linear-gradient(to bottom, #C0C0C0, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .silver-teal-vert {
   background: linear-gradient(to bottom, #C0C0C0, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.silver-aqua-vert {
+  background: linear-gradient(to bottom, #C0C0C0, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1615,23 +1980,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.silver-fuchsia-vert {
+.silver-magenta-vert {
   background: linear-gradient(to bottom, #C0C0C0, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .silver-purple-vert {
   background: linear-gradient(to bottom, #C0C0C0, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.silver-chenin-vert {
-  background: linear-gradient(to bottom, #C0C0C0, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.silver-emerald-vert {
-  background: linear-gradient(to bottom, #C0C0C0, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1670,6 +2025,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.gray-chenin-vert {
+  background: linear-gradient(to bottom, #808080, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .gray-olive-vert {
   background: linear-gradient(to bottom, #808080, #808000);
   -webkit-background-clip: text;
@@ -1685,13 +2045,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.gray-aqua-vert {
-  background: linear-gradient(to bottom, #808080, #00FFFF);
+.gray-emerald-vert {
+  background: linear-gradient(to bottom, #808080, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .gray-teal-vert {
   background: linear-gradient(to bottom, #808080, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-aqua-vert {
+  background: linear-gradient(to bottom, #808080, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1705,23 +2070,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.gray-fuchsia-vert {
+.gray-magenta-vert {
   background: linear-gradient(to bottom, #808080, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .gray-purple-vert {
   background: linear-gradient(to bottom, #808080, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.gray-chenin-vert {
-  background: linear-gradient(to bottom, #808080, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.gray-emerald-vert {
-  background: linear-gradient(to bottom, #808080, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1760,6 +2115,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.black-chenin-vert {
+  background: linear-gradient(to bottom, #000000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .black-olive-vert {
   background: linear-gradient(to bottom, #000000, #808000);
   -webkit-background-clip: text;
@@ -1775,13 +2135,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.black-aqua-vert {
-  background: linear-gradient(to bottom, #000000, #00FFFF);
+.black-emerald-vert {
+  background: linear-gradient(to bottom, #000000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .black-teal-vert {
   background: linear-gradient(to bottom, #000000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-aqua-vert {
+  background: linear-gradient(to bottom, #000000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1795,23 +2160,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.black-fuchsia-vert {
+.black-magenta-vert {
   background: linear-gradient(to bottom, #000000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .black-purple-vert {
   background: linear-gradient(to bottom, #000000, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.black-chenin-vert {
-  background: linear-gradient(to bottom, #000000, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.black-emerald-vert {
-  background: linear-gradient(to bottom, #000000, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1850,6 +2205,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.red-chenin-vert {
+  background: linear-gradient(to bottom, #FF0000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .red-olive-vert {
   background: linear-gradient(to bottom, #FF0000, #808000);
   -webkit-background-clip: text;
@@ -1865,13 +2225,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.red-aqua-vert {
-  background: linear-gradient(to bottom, #FF0000, #00FFFF);
+.red-emerald-vert {
+  background: linear-gradient(to bottom, #FF0000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .red-teal-vert {
   background: linear-gradient(to bottom, #FF0000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-aqua-vert {
+  background: linear-gradient(to bottom, #FF0000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1885,23 +2250,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.red-fuchsia-vert {
+.red-magenta-vert {
   background: linear-gradient(to bottom, #FF0000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .red-purple-vert {
   background: linear-gradient(to bottom, #FF0000, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.red-chenin-vert {
-  background: linear-gradient(to bottom, #FF0000, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.red-emerald-vert {
-  background: linear-gradient(to bottom, #FF0000, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1940,6 +2295,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.maroon-chenin-vert {
+  background: linear-gradient(to bottom, #800000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .maroon-olive-vert {
   background: linear-gradient(to bottom, #800000, #808000);
   -webkit-background-clip: text;
@@ -1955,13 +2315,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maroon-aqua-vert {
-  background: linear-gradient(to bottom, #800000, #00FFFF);
+.maroon-emerald-vert {
+  background: linear-gradient(to bottom, #800000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .maroon-teal-vert {
   background: linear-gradient(to bottom, #800000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.maroon-aqua-vert {
+  background: linear-gradient(to bottom, #800000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1975,23 +2340,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maroon-fuchsia-vert {
+.maroon-magenta-vert {
   background: linear-gradient(to bottom, #800000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .maroon-purple-vert {
   background: linear-gradient(to bottom, #800000, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.maroon-chenin-vert {
-  background: linear-gradient(to bottom, #800000, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.maroon-emerald-vert {
-  background: linear-gradient(to bottom, #800000, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2020,13 +2375,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.orange-maroon-vert {
-  background: linear-gradient(to bottom, #F47E22, #800000);
+.orange-yellow-vert {
+  background: linear-gradient(to bottom, #F47E22, #FFFF00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.orange-yellow-vert {
-  background: linear-gradient(to bottom, #F47E22, #FFFF00);
+.orange-chenin-vert {
+  background: linear-gradient(to bottom, #F47E22, #E3DF7A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2045,13 +2400,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.orange-aqua-vert {
-  background: linear-gradient(to bottom, #F47E22, #00FFFF);
+.orange-emerald-vert {
+  background: linear-gradient(to bottom, #F47E22, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .orange-teal-vert {
   background: linear-gradient(to bottom, #F47E22, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-aqua-vert {
+  background: linear-gradient(to bottom, #F47E22, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2065,23 +2425,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.orange-fuchsia-vert {
+.orange-magenta-vert {
   background: linear-gradient(to bottom, #F47E22, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .orange-purple-vert {
   background: linear-gradient(to bottom, #F47E22, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.orange-chenin-vert {
-  background: linear-gradient(to bottom, #F47E22, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.orange-emerald-vert {
-  background: linear-gradient(to bottom, #F47E22, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2120,6 +2470,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.yellow-chenin-vert {
+  background: linear-gradient(to bottom, #FFFF00, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .yellow-olive-vert {
   background: linear-gradient(to bottom, #FFFF00, #808000);
   -webkit-background-clip: text;
@@ -2135,13 +2490,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-aqua-vert {
-  background: linear-gradient(to bottom, #FFFF00, #00FFFF);
+.yellow-emerald-vert {
+  background: linear-gradient(to bottom, #FFFF00, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .yellow-teal-vert {
   background: linear-gradient(to bottom, #FFFF00, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-aqua-vert {
+  background: linear-gradient(to bottom, #FFFF00, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2155,7 +2515,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-fuchsia-vert {
+.yellow-magenta-vert {
   background: linear-gradient(to bottom, #FFFF00, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2165,13 +2525,93 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-chenin-vert {
-  background: linear-gradient(to bottom, #FFFF00, #e3df7a);
+.chenin-white-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #FFFFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-emerald-vert {
-  background: linear-gradient(to bottom, #FFFF00, #4fcc73);
+.chenin-silver-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-gray-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-black-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-red-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-maroon-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-orange-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-yellow-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-olive-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-lime-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-green-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-emerald-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-teal-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-aqua-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-blue-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-navy-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-magenta-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-purple-vert {
+  background: linear-gradient(to bottom, #E3DF7A, #800080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2215,6 +2655,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.olive-chenin-vert {
+  background: linear-gradient(to bottom, #808000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .olive-lime-vert {
   background: linear-gradient(to bottom, #808000, #00FF00);
   -webkit-background-clip: text;
@@ -2225,13 +2670,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.olive-aqua-vert {
-  background: linear-gradient(to bottom, #808000, #00FFFF);
+.olive-emerald-vert {
+  background: linear-gradient(to bottom, #808000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .olive-teal-vert {
   background: linear-gradient(to bottom, #808000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.olive-aqua-vert {
+  background: linear-gradient(to bottom, #808000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2245,23 +2695,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.olive-fuchsia-vert {
+.olive-magenta-vert {
   background: linear-gradient(to bottom, #808000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .olive-purple-vert {
   background: linear-gradient(to bottom, #808000, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.olive-chenin-vert {
-  background: linear-gradient(to bottom, #808000, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.olive-emerald-vert {
-  background: linear-gradient(to bottom, #808000, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2305,6 +2745,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.lime-chenin-vert {
+  background: linear-gradient(to bottom, #00FF00, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .lime-olive-vert {
   background: linear-gradient(to bottom, #00FF00, #808000);
   -webkit-background-clip: text;
@@ -2315,13 +2760,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.lime-aqua-vert {
-  background: linear-gradient(to bottom, #00FF00, #00FFFF);
+.lime-emerald-vert {
+  background: linear-gradient(to bottom, #00FF00, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .lime-teal-vert {
   background: linear-gradient(to bottom, #00FF00, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-aqua-vert {
+  background: linear-gradient(to bottom, #00FF00, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2335,23 +2785,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.lime-fuchsia-vert {
+.lime-magenta-vert {
   background: linear-gradient(to bottom, #00FF00, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .lime-purple-vert {
   background: linear-gradient(to bottom, #00FF00, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.lime-chenin-vert {
-  background: linear-gradient(to bottom, #00FF00, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.lime-emerald-vert {
-  background: linear-gradient(to bottom, #00FF00, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2395,6 +2835,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.green-chenin-vert {
+  background: linear-gradient(to bottom, #008000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .green-olive-vert {
   background: linear-gradient(to bottom, #008000, #808000);
   -webkit-background-clip: text;
@@ -2405,13 +2850,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.green-aqua-vert {
-  background: linear-gradient(to bottom, #008000, #00FFFF);
+.green-emerald-vert {
+  background: linear-gradient(to bottom, #008000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .green-teal-vert {
   background: linear-gradient(to bottom, #008000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-aqua-vert {
+  background: linear-gradient(to bottom, #008000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2425,7 +2875,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.green-fuchsia-vert {
+.green-magenta-vert {
   background: linear-gradient(to bottom, #008000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2435,103 +2885,543 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.green-chenin-vert {
-  background: linear-gradient(to bottom, #008000, #e3df7a);
+.emerald-white-vert {
+  background: linear-gradient(to bottom, #4FCC73, #FFFFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.green-emerald-vert {
-  background: linear-gradient(to bottom, #008000, #4fcc73);
+.emerald-silver-vert {
+  background: linear-gradient(to bottom, #4FCC73, #C0C0C0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-white-vert {
+.emerald-gray-vert {
+  background: linear-gradient(to bottom, #4FCC73, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-black-vert {
+  background: linear-gradient(to bottom, #4FCC73, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-red-vert {
+  background: linear-gradient(to bottom, #4FCC73, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-maroon-vert {
+  background: linear-gradient(to bottom, #4FCC73, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-orange-vert {
+  background: linear-gradient(to bottom, #4FCC73, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-yellow-vert {
+  background: linear-gradient(to bottom, #4FCC73, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-chenin-vert {
+  background: linear-gradient(to bottom, #4FCC73, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-olive-vert {
+  background: linear-gradient(to bottom, #4FCC73, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-lime-vert {
+  background: linear-gradient(to bottom, #4FCC73, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-green-vert {
+  background: linear-gradient(to bottom, #4FCC73, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-teal-vert {
+  background: linear-gradient(to bottom, #4FCC73, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-aqua-vert {
+  background: linear-gradient(to bottom, #4FCC73, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-blue-vert {
+  background: linear-gradient(to bottom, #4FCC73, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-navy-vert {
+  background: linear-gradient(to bottom, #4FCC73, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-magenta-vert {
+  background: linear-gradient(to bottom, #4FCC73, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-purple-vert {
+  background: linear-gradient(to bottom, #4FCC73, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-white-vert {
+  background: linear-gradient(to bottom, #008080, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-silver-vert {
+  background: linear-gradient(to bottom, #008080, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-gray-vert {
+  background: linear-gradient(to bottom, #008080, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-black-vert {
+  background: linear-gradient(to bottom, #008080, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-red-vert {
+  background: linear-gradient(to bottom, #008080, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-maroon-vert {
+  background: linear-gradient(to bottom, #008080, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-orange-vert {
+  background: linear-gradient(to bottom, #008080, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-yellow-vert {
+  background: linear-gradient(to bottom, #008080, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-chenin-vert {
+  background: linear-gradient(to bottom, #008080, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-olive-vert {
+  background: linear-gradient(to bottom, #008080, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-lime-vert {
+  background: linear-gradient(to bottom, #008080, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-green-vert {
+  background: linear-gradient(to bottom, #008080, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-emerald-vert {
+  background: linear-gradient(to bottom, #008080, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-aqua-vert {
+  background: linear-gradient(to bottom, #008080, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-blue-vert {
+  background: linear-gradient(to bottom, #008080, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-navy-vert {
+  background: linear-gradient(to bottom, #008080, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-magenta-vert {
+  background: linear-gradient(to bottom, #008080, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-purple-vert {
+  background: linear-gradient(to bottom, #008080, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-white-vert {
+  background: linear-gradient(to bottom, #00FFFF, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-silver-vert {
+  background: linear-gradient(to bottom, #00FFFF, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-gray-vert {
+  background: linear-gradient(to bottom, #00FFFF, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-black-vert {
+  background: linear-gradient(to bottom, #00FFFF, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-red-vert {
+  background: linear-gradient(to bottom, #00FFFF, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-maroon-vert {
+  background: linear-gradient(to bottom, #00FFFF, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-orange-vert {
+  background: linear-gradient(to bottom, #00FFFF, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-yellow-vert {
+  background: linear-gradient(to bottom, #00FFFF, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-chenin-vert {
+  background: linear-gradient(to bottom, #00FFFF, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-olive-vert {
+  background: linear-gradient(to bottom, #00FFFF, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-lime-vert {
+  background: linear-gradient(to bottom, #00FFFF, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-green-vert {
+  background: linear-gradient(to bottom, #00FFFF, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-emerald-vert {
+  background: linear-gradient(to bottom, #00FFFF, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-teal-vert {
+  background: linear-gradient(to bottom, #00FFFF, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-blue-vert {
+  background: linear-gradient(to bottom, #00FFFF, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-navy-vert {
+  background: linear-gradient(to bottom, #00FFFF, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-magenta-vert {
+  background: linear-gradient(to bottom, #00FFFF, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-purple-vert {
+  background: linear-gradient(to bottom, #00FFFF, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-white-vert {
+  background: linear-gradient(to bottom, #0000FF, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-silver-vert {
+  background: linear-gradient(to bottom, #0000FF, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-gray-vert {
+  background: linear-gradient(to bottom, #0000FF, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-black-vert {
+  background: linear-gradient(to bottom, #0000FF, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-red-vert {
+  background: linear-gradient(to bottom, #0000FF, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-maroon-vert {
+  background: linear-gradient(to bottom, #0000FF, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-orange-vert {
+  background: linear-gradient(to bottom, #0000FF, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-yellow-vert {
+  background: linear-gradient(to bottom, #0000FF, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-chenin-vert {
+  background: linear-gradient(to bottom, #0000FF, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-olive-vert {
+  background: linear-gradient(to bottom, #0000FF, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-lime-vert {
+  background: linear-gradient(to bottom, #0000FF, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-green-vert {
+  background: linear-gradient(to bottom, #0000FF, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-emerald-vert {
+  background: linear-gradient(to bottom, #0000FF, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-teal-vert {
+  background: linear-gradient(to bottom, #0000FF, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-aqua-vert {
+  background: linear-gradient(to bottom, #0000FF, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-navy-vert {
+  background: linear-gradient(to bottom, #0000FF, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-magenta-vert {
+  background: linear-gradient(to bottom, #0000FF, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-purple-vert {
+  background: linear-gradient(to bottom, #0000FF, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-white-vert {
+  background: linear-gradient(to bottom, #000080, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-silver-vert {
+  background: linear-gradient(to bottom, #000080, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-gray-vert {
+  background: linear-gradient(to bottom, #000080, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-black-vert {
+  background: linear-gradient(to bottom, #000080, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-red-vert {
+  background: linear-gradient(to bottom, #000080, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-maroon-vert {
+  background: linear-gradient(to bottom, #000080, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-orange-vert {
+  background: linear-gradient(to bottom, #000080, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-yellow-vert {
+  background: linear-gradient(to bottom, #000080, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-chenin-vert {
+  background: linear-gradient(to bottom, #000080, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-olive-vert {
+  background: linear-gradient(to bottom, #000080, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-lime-vert {
+  background: linear-gradient(to bottom, #000080, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-green-vert {
+  background: linear-gradient(to bottom, #000080, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-emerald-vert {
+  background: linear-gradient(to bottom, #000080, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-teal-vert {
+  background: linear-gradient(to bottom, #000080, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-aqua-vert {
+  background: linear-gradient(to bottom, #000080, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-blue-vert {
+  background: linear-gradient(to bottom, #000080, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-magenta-vert {
+  background: linear-gradient(to bottom, #000080, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-purple-vert {
+  background: linear-gradient(to bottom, #000080, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.magenta-white-vert {
   background: linear-gradient(to bottom, #FF00FF, #FFFFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-silver-vert {
+.magenta-silver-vert {
   background: linear-gradient(to bottom, #FF00FF, #C0C0C0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-gray-vert {
+.magenta-gray-vert {
   background: linear-gradient(to bottom, #FF00FF, #808080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-black-vert {
+.magenta-black-vert {
   background: linear-gradient(to bottom, #FF00FF, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-red-vert {
+.magenta-red-vert {
   background: linear-gradient(to bottom, #FF00FF, #FF0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-maroon-vert {
+.magenta-maroon-vert {
   background: linear-gradient(to bottom, #FF00FF, #800000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-orange-vert {
+.magenta-orange-vert {
   background: linear-gradient(to bottom, #FF00FF, #F47E22);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-yellow-vert {
+.magenta-yellow-vert {
   background: linear-gradient(to bottom, #FF00FF, #FFFF00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-olive-vert {
+.magenta-chenin-vert {
+  background: linear-gradient(to bottom, #FF00FF, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.magenta-olive-vert {
   background: linear-gradient(to bottom, #FF00FF, #808000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-lime-vert {
+.magenta-lime-vert {
   background: linear-gradient(to bottom, #FF00FF, #00FF00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-green-vert {
+.magenta-green-vert {
   background: linear-gradient(to bottom, #FF00FF, #008000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-aqua-vert {
-  background: linear-gradient(to bottom, #FF00FF, #00FFFF);
+.magenta-emerald-vert {
+  background: linear-gradient(to bottom, #FF00FF, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-teal-vert {
+.magenta-teal-vert {
   background: linear-gradient(to bottom, #FF00FF, #008080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-blue-vert {
+.magenta-aqua-vert {
+  background: linear-gradient(to bottom, #FF00FF, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.magenta-blue-vert {
   background: linear-gradient(to bottom, #FF00FF, #0000FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-navy-vert {
+.magenta-navy-vert {
   background: linear-gradient(to bottom, #FF00FF, #000080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-purple-vert {
+.magenta-purple-vert {
   background: linear-gradient(to bottom, #FF00FF, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.fuchsia-chenin-vert {
-  background: linear-gradient(to bottom, #FF00FF, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.fuchsia-emerald-vert {
-  background: linear-gradient(to bottom, #FF00FF, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2575,6 +3465,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.purple-chenin-vert {
+  background: linear-gradient(to bottom, #800080, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .purple-olive-vert {
   background: linear-gradient(to bottom, #800080, #808000);
   -webkit-background-clip: text;
@@ -2590,13 +3485,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.purple-aqua-vert {
-  background: linear-gradient(to bottom, #800080, #00FFFF);
+.purple-emerald-vert {
+  background: linear-gradient(to bottom, #800080, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .purple-teal-vert {
   background: linear-gradient(to bottom, #800080, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-aqua-vert {
+  background: linear-gradient(to bottom, #800080, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2610,198 +3510,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.purple-fuchsia-vert {
+.purple-magenta-vert {
   background: linear-gradient(to bottom, #800080, #FF00FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.purple-chenin-vert {
-  background: linear-gradient(to bottom, #800080, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.purple-emerald-vert {
-  background: linear-gradient(to bottom, #800080, #4fcc73);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-white-vert {
-  background: linear-gradient(to bottom, #e3df7a, #FFFFFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-silver-vert {
-  background: linear-gradient(to bottom, #e3df7a, #C0C0C0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-gray-vert {
-  background: linear-gradient(to bottom, #e3df7a, #808080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-black-vert {
-  background: linear-gradient(to bottom, #e3df7a, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-red-vert {
-  background: linear-gradient(to bottom, #e3df7a, #FF0000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-maroon-vert {
-  background: linear-gradient(to bottom, #e3df7a, #800000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-orange-vert {
-  background: linear-gradient(to bottom, #e3df7a, #F47E22);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-yellow-vert {
-  background: linear-gradient(to bottom, #e3df7a, #FFFF00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-olive-vert {
-  background: linear-gradient(to bottom, #e3df7a, #808000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-lime-vert {
-  background: linear-gradient(to bottom, #e3df7a, #00FF00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-green-vert {
-  background: linear-gradient(to bottom, #e3df7a, #008000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-aqua-vert {
-  background: linear-gradient(to bottom, #e3df7a, #00FFFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-teal-vert {
-  background: linear-gradient(to bottom, #e3df7a, #008080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-blue-vert {
-  background: linear-gradient(to bottom, #e3df7a, #0000FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-navy-vert {
-  background: linear-gradient(to bottom, #e3df7a, #000080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-fuchsia-vert {
-  background: linear-gradient(to bottom, #e3df7a, #FF00FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-purple-vert {
-  background: linear-gradient(to bottom, #e3df7a, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-emerald-vert {
-  background: linear-gradient(to bottom, #e3df7a, #4fcc73);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-white-vert {
-  background: linear-gradient(to bottom, #4fcc73, #FFFFFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-silver-vert {
-  background: linear-gradient(to bottom, #4fcc73, #C0C0C0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-gray-vert {
-  background: linear-gradient(to bottom, #4fcc73, #808080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-black-vert {
-  background: linear-gradient(to bottom, #4fcc73, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-red-vert {
-  background: linear-gradient(to bottom, #4fcc73, #FF0000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-maroon-vert {
-  background: linear-gradient(to bottom, #4fcc73, #800000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-orange-vert {
-  background: linear-gradient(to bottom, #4fcc73, #F47E22);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-yellow-vert {
-  background: linear-gradient(to bottom, #4fcc73, #FFFF00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-olive-vert {
-  background: linear-gradient(to bottom, #4fcc73, #808000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-lime-vert {
-  background: linear-gradient(to bottom, #4fcc73, #00FF00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-green-vert {
-  background: linear-gradient(to bottom, #4fcc73, #008000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-aqua-vert {
-  background: linear-gradient(to bottom, #4fcc73, #00FFFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-teal-vert {
-  background: linear-gradient(to bottom, #4fcc73, #008080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-blue-vert {
-  background: linear-gradient(to bottom, #4fcc73, #0000FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-navy-vert {
-  background: linear-gradient(to bottom, #4fcc73, #000080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-fuchsia-vert {
-  background: linear-gradient(to bottom, #4fcc73, #FF00FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-purple-vert {
-  background: linear-gradient(to bottom, #4fcc73, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-chenin-vert {
-  background: linear-gradient(to bottom, #4fcc73, #e3df7a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2843,6 +3553,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.white-chenin-dia {
+  background: linear-gradient(to bottom right, #FFFFFF, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .white-olive-dia {
   background: linear-gradient(to bottom right, #FFFFFF, #808000);
   -webkit-background-clip: text;
@@ -2858,13 +3573,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.white-aqua-dia {
-  background: linear-gradient(to bottom right, #FFFFFF, #00FFFF);
+.white-emerald-dia {
+  background: linear-gradient(to bottom right, #FFFFFF, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .white-teal-dia {
   background: linear-gradient(to bottom right, #FFFFFF, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.white-aqua-dia {
+  background: linear-gradient(to bottom right, #FFFFFF, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2878,23 +3598,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.white-fuchsia-dia {
+.white-magenta-dia {
   background: linear-gradient(to bottom right, #FFFFFF, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .white-purple-dia {
   background: linear-gradient(to bottom right, #FFFFFF, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.white-chenin-dia {
-  background: linear-gradient(to bottom right, #FFFFFF, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.white-emerald-dia {
-  background: linear-gradient(to bottom right, #FFFFFF, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2933,6 +3643,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.silver-chenin-dia {
+  background: linear-gradient(to bottom right, #C0C0C0, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .silver-olive-dia {
   background: linear-gradient(to bottom right, #C0C0C0, #808000);
   -webkit-background-clip: text;
@@ -2948,13 +3663,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.silver-aqua-dia {
-  background: linear-gradient(to bottom right, #C0C0C0, #00FFFF);
+.silver-emerald-dia {
+  background: linear-gradient(to bottom right, #C0C0C0, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .silver-teal-dia {
   background: linear-gradient(to bottom right, #C0C0C0, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.silver-aqua-dia {
+  background: linear-gradient(to bottom right, #C0C0C0, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2968,23 +3688,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.silver-fuchsia-dia {
+.silver-magenta-dia {
   background: linear-gradient(to bottom right, #C0C0C0, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .silver-purple-dia {
   background: linear-gradient(to bottom right, #C0C0C0, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.silver-chenin-dia {
-  background: linear-gradient(to bottom right, #C0C0C0, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.silver-emerald-dia {
-  background: linear-gradient(to bottom right, #C0C0C0, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3023,6 +3733,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.gray-chenin-dia {
+  background: linear-gradient(to bottom right, #808080, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .gray-olive-dia {
   background: linear-gradient(to bottom right, #808080, #808000);
   -webkit-background-clip: text;
@@ -3038,13 +3753,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.gray-aqua-dia {
-  background: linear-gradient(to bottom right, #808080, #00FFFF);
+.gray-emerald-dia {
+  background: linear-gradient(to bottom right, #808080, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .gray-teal-dia {
   background: linear-gradient(to bottom right, #808080, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray-aqua-dia {
+  background: linear-gradient(to bottom right, #808080, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3058,23 +3778,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.gray-fuchsia-dia {
+.gray-magenta-dia {
   background: linear-gradient(to bottom right, #808080, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .gray-purple-dia {
   background: linear-gradient(to bottom right, #808080, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.gray-chenin-dia {
-  background: linear-gradient(to bottom right, #808080, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.gray-emerald-dia {
-  background: linear-gradient(to bottom right, #808080, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3113,6 +3823,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.black-chenin-dia {
+  background: linear-gradient(to bottom right, #000000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .black-olive-dia {
   background: linear-gradient(to bottom right, #000000, #808000);
   -webkit-background-clip: text;
@@ -3128,13 +3843,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.black-aqua-dia {
-  background: linear-gradient(to bottom right, #000000, #00FFFF);
+.black-emerald-dia {
+  background: linear-gradient(to bottom right, #000000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .black-teal-dia {
   background: linear-gradient(to bottom right, #000000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black-aqua-dia {
+  background: linear-gradient(to bottom right, #000000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3148,23 +3868,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.black-fuchsia-dia {
+.black-magenta-dia {
   background: linear-gradient(to bottom right, #000000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .black-purple-dia {
   background: linear-gradient(to bottom right, #000000, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.black-chenin-dia {
-  background: linear-gradient(to bottom right, #000000, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.black-emerald-dia {
-  background: linear-gradient(to bottom right, #000000, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3203,6 +3913,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.red-chenin-dia {
+  background: linear-gradient(to bottom right, #FF0000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .red-olive-dia {
   background: linear-gradient(to bottom right, #FF0000, #808000);
   -webkit-background-clip: text;
@@ -3218,13 +3933,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.red-aqua-dia {
-  background: linear-gradient(to bottom right, #FF0000, #00FFFF);
+.red-emerald-dia {
+  background: linear-gradient(to bottom right, #FF0000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .red-teal-dia {
   background: linear-gradient(to bottom right, #FF0000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-aqua-dia {
+  background: linear-gradient(to bottom right, #FF0000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3238,23 +3958,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.red-fuchsia-dia {
+.red-magenta-dia {
   background: linear-gradient(to bottom right, #FF0000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .red-purple-dia {
   background: linear-gradient(to bottom right, #FF0000, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.red-chenin-dia {
-  background: linear-gradient(to bottom right, #FF0000, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.red-emerald-dia {
-  background: linear-gradient(to bottom right, #FF0000, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3293,6 +4003,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.maroon-chenin-dia {
+  background: linear-gradient(to bottom right, #800000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .maroon-olive-dia {
   background: linear-gradient(to bottom right, #800000, #808000);
   -webkit-background-clip: text;
@@ -3308,13 +4023,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maroon-aqua-dia {
-  background: linear-gradient(to bottom right, #800000, #00FFFF);
+.maroon-emerald-dia {
+  background: linear-gradient(to bottom right, #800000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .maroon-teal-dia {
   background: linear-gradient(to bottom right, #800000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.maroon-aqua-dia {
+  background: linear-gradient(to bottom right, #800000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3328,23 +4048,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maroon-fuchsia-dia {
+.maroon-magenta-dia {
   background: linear-gradient(to bottom right, #800000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .maroon-purple-dia {
   background: linear-gradient(to bottom right, #800000, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.maroon-chenin-dia {
-  background: linear-gradient(to bottom right, #800000, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.maroon-emerald-dia {
-  background: linear-gradient(to bottom right, #800000, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3373,13 +4083,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.orange-maroon-dia {
-  background: linear-gradient(to bottom right, #F47E22, #800000);
+.orange-yellow-dia {
+  background: linear-gradient(to bottom right, #F47E22, #FFFF00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.orange-yellow-dia {
-  background: linear-gradient(to bottom right, #F47E22, #FFFF00);
+.orange-chenin-dia {
+  background: linear-gradient(to bottom right, #F47E22, #E3DF7A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3398,13 +4108,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.orange-aqua-dia {
-  background: linear-gradient(to bottom right, #F47E22, #00FFFF);
+.orange-emerald-dia {
+  background: linear-gradient(to bottom right, #F47E22, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .orange-teal-dia {
   background: linear-gradient(to bottom right, #F47E22, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orange-aqua-dia {
+  background: linear-gradient(to bottom right, #F47E22, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3418,23 +4133,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.orange-fuchsia-dia {
+.orange-magenta-dia {
   background: linear-gradient(to bottom right, #F47E22, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .orange-purple-dia {
   background: linear-gradient(to bottom right, #F47E22, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.orange-chenin-dia {
-  background: linear-gradient(to bottom right, #F47E22, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.orange-emerald-dia {
-  background: linear-gradient(to bottom right, #F47E22, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3473,6 +4178,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.yellow-chenin-dia {
+  background: linear-gradient(to bottom right, #FFFF00, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .yellow-olive-dia {
   background: linear-gradient(to bottom right, #FFFF00, #808000);
   -webkit-background-clip: text;
@@ -3488,13 +4198,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-aqua-dia {
-  background: linear-gradient(to bottom right, #FFFF00, #00FFFF);
+.yellow-emerald-dia {
+  background: linear-gradient(to bottom right, #FFFF00, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .yellow-teal-dia {
   background: linear-gradient(to bottom right, #FFFF00, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-aqua-dia {
+  background: linear-gradient(to bottom right, #FFFF00, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3508,7 +4223,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-fuchsia-dia {
+.yellow-magenta-dia {
   background: linear-gradient(to bottom right, #FFFF00, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -3518,13 +4233,93 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-chenin-dia {
-  background: linear-gradient(to bottom right, #FFFF00, #e3df7a);
+.chenin-white-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #FFFFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-emerald-dia {
-  background: linear-gradient(to bottom right, #FFFF00, #4fcc73);
+.chenin-silver-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-gray-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-black-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-red-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-maroon-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-orange-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-yellow-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-olive-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-lime-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-green-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-emerald-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-teal-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-aqua-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-blue-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-navy-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-magenta-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chenin-purple-dia {
+  background: linear-gradient(to bottom right, #E3DF7A, #800080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3568,6 +4363,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.olive-chenin-dia {
+  background: linear-gradient(to bottom right, #808000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .olive-lime-dia {
   background: linear-gradient(to bottom right, #808000, #00FF00);
   -webkit-background-clip: text;
@@ -3578,13 +4378,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.olive-aqua-dia {
-  background: linear-gradient(to bottom right, #808000, #00FFFF);
+.olive-emerald-dia {
+  background: linear-gradient(to bottom right, #808000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .olive-teal-dia {
   background: linear-gradient(to bottom right, #808000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.olive-aqua-dia {
+  background: linear-gradient(to bottom right, #808000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3598,23 +4403,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.olive-fuchsia-dia {
+.olive-magenta-dia {
   background: linear-gradient(to bottom right, #808000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .olive-purple-dia {
   background: linear-gradient(to bottom right, #808000, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.olive-chenin-dia {
-  background: linear-gradient(to bottom right, #808000, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.olive-emerald-dia {
-  background: linear-gradient(to bottom right, #808000, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3658,6 +4453,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.lime-chenin-dia {
+  background: linear-gradient(to bottom right, #00FF00, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .lime-olive-dia {
   background: linear-gradient(to bottom right, #00FF00, #808000);
   -webkit-background-clip: text;
@@ -3668,13 +4468,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.lime-aqua-dia {
-  background: linear-gradient(to bottom right, #00FF00, #00FFFF);
+.lime-emerald-dia {
+  background: linear-gradient(to bottom right, #00FF00, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .lime-teal-dia {
   background: linear-gradient(to bottom right, #00FF00, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lime-aqua-dia {
+  background: linear-gradient(to bottom right, #00FF00, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3688,23 +4493,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.lime-fuchsia-dia {
+.lime-magenta-dia {
   background: linear-gradient(to bottom right, #00FF00, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .lime-purple-dia {
   background: linear-gradient(to bottom right, #00FF00, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.lime-chenin-dia {
-  background: linear-gradient(to bottom right, #00FF00, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.lime-emerald-dia {
-  background: linear-gradient(to bottom right, #00FF00, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3748,6 +4543,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.green-chenin-dia {
+  background: linear-gradient(to bottom right, #008000, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .green-olive-dia {
   background: linear-gradient(to bottom right, #008000, #808000);
   -webkit-background-clip: text;
@@ -3758,13 +4558,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.green-aqua-dia {
-  background: linear-gradient(to bottom right, #008000, #00FFFF);
+.green-emerald-dia {
+  background: linear-gradient(to bottom right, #008000, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .green-teal-dia {
   background: linear-gradient(to bottom right, #008000, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-aqua-dia {
+  background: linear-gradient(to bottom right, #008000, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3778,7 +4583,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.green-fuchsia-dia {
+.green-magenta-dia {
   background: linear-gradient(to bottom right, #008000, #FF00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -3788,103 +4593,543 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.green-chenin-dia {
-  background: linear-gradient(to bottom right, #008000, #e3df7a);
+.emerald-white-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #FFFFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.green-emerald-dia {
-  background: linear-gradient(to bottom right, #008000, #4fcc73);
+.emerald-silver-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #C0C0C0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-white-dia {
+.emerald-gray-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-black-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-red-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-maroon-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-orange-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-yellow-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-chenin-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-olive-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-lime-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-green-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-teal-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-aqua-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-blue-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-navy-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-magenta-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emerald-purple-dia {
+  background: linear-gradient(to bottom right, #4FCC73, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-white-dia {
+  background: linear-gradient(to bottom right, #008080, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-silver-dia {
+  background: linear-gradient(to bottom right, #008080, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-gray-dia {
+  background: linear-gradient(to bottom right, #008080, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-black-dia {
+  background: linear-gradient(to bottom right, #008080, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-red-dia {
+  background: linear-gradient(to bottom right, #008080, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-maroon-dia {
+  background: linear-gradient(to bottom right, #008080, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-orange-dia {
+  background: linear-gradient(to bottom right, #008080, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-yellow-dia {
+  background: linear-gradient(to bottom right, #008080, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-chenin-dia {
+  background: linear-gradient(to bottom right, #008080, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-olive-dia {
+  background: linear-gradient(to bottom right, #008080, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-lime-dia {
+  background: linear-gradient(to bottom right, #008080, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-green-dia {
+  background: linear-gradient(to bottom right, #008080, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-emerald-dia {
+  background: linear-gradient(to bottom right, #008080, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-aqua-dia {
+  background: linear-gradient(to bottom right, #008080, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-blue-dia {
+  background: linear-gradient(to bottom right, #008080, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-navy-dia {
+  background: linear-gradient(to bottom right, #008080, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-magenta-dia {
+  background: linear-gradient(to bottom right, #008080, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teal-purple-dia {
+  background: linear-gradient(to bottom right, #008080, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-white-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-silver-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-gray-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-black-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-red-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-maroon-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-orange-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-yellow-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-chenin-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-olive-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-lime-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-green-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-emerald-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-teal-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-blue-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-navy-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-magenta-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aqua-purple-dia {
+  background: linear-gradient(to bottom right, #00FFFF, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-white-dia {
+  background: linear-gradient(to bottom right, #0000FF, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-silver-dia {
+  background: linear-gradient(to bottom right, #0000FF, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-gray-dia {
+  background: linear-gradient(to bottom right, #0000FF, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-black-dia {
+  background: linear-gradient(to bottom right, #0000FF, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-red-dia {
+  background: linear-gradient(to bottom right, #0000FF, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-maroon-dia {
+  background: linear-gradient(to bottom right, #0000FF, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-orange-dia {
+  background: linear-gradient(to bottom right, #0000FF, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-yellow-dia {
+  background: linear-gradient(to bottom right, #0000FF, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-chenin-dia {
+  background: linear-gradient(to bottom right, #0000FF, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-olive-dia {
+  background: linear-gradient(to bottom right, #0000FF, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-lime-dia {
+  background: linear-gradient(to bottom right, #0000FF, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-green-dia {
+  background: linear-gradient(to bottom right, #0000FF, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-emerald-dia {
+  background: linear-gradient(to bottom right, #0000FF, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-teal-dia {
+  background: linear-gradient(to bottom right, #0000FF, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-aqua-dia {
+  background: linear-gradient(to bottom right, #0000FF, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-navy-dia {
+  background: linear-gradient(to bottom right, #0000FF, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-magenta-dia {
+  background: linear-gradient(to bottom right, #0000FF, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-purple-dia {
+  background: linear-gradient(to bottom right, #0000FF, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-white-dia {
+  background: linear-gradient(to bottom right, #000080, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-silver-dia {
+  background: linear-gradient(to bottom right, #000080, #C0C0C0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-gray-dia {
+  background: linear-gradient(to bottom right, #000080, #808080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-black-dia {
+  background: linear-gradient(to bottom right, #000080, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-red-dia {
+  background: linear-gradient(to bottom right, #000080, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-maroon-dia {
+  background: linear-gradient(to bottom right, #000080, #800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-orange-dia {
+  background: linear-gradient(to bottom right, #000080, #F47E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-yellow-dia {
+  background: linear-gradient(to bottom right, #000080, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-chenin-dia {
+  background: linear-gradient(to bottom right, #000080, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-olive-dia {
+  background: linear-gradient(to bottom right, #000080, #808000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-lime-dia {
+  background: linear-gradient(to bottom right, #000080, #00FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-green-dia {
+  background: linear-gradient(to bottom right, #000080, #008000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-emerald-dia {
+  background: linear-gradient(to bottom right, #000080, #4FCC73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-teal-dia {
+  background: linear-gradient(to bottom right, #000080, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-aqua-dia {
+  background: linear-gradient(to bottom right, #000080, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-blue-dia {
+  background: linear-gradient(to bottom right, #000080, #0000FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-magenta-dia {
+  background: linear-gradient(to bottom right, #000080, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navy-purple-dia {
+  background: linear-gradient(to bottom right, #000080, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.magenta-white-dia {
   background: linear-gradient(to bottom right, #FF00FF, #FFFFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-silver-dia {
+.magenta-silver-dia {
   background: linear-gradient(to bottom right, #FF00FF, #C0C0C0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-gray-dia {
+.magenta-gray-dia {
   background: linear-gradient(to bottom right, #FF00FF, #808080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-black-dia {
+.magenta-black-dia {
   background: linear-gradient(to bottom right, #FF00FF, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-red-dia {
+.magenta-red-dia {
   background: linear-gradient(to bottom right, #FF00FF, #FF0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-maroon-dia {
+.magenta-maroon-dia {
   background: linear-gradient(to bottom right, #FF00FF, #800000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-orange-dia {
+.magenta-orange-dia {
   background: linear-gradient(to bottom right, #FF00FF, #F47E22);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-yellow-dia {
+.magenta-yellow-dia {
   background: linear-gradient(to bottom right, #FF00FF, #FFFF00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-olive-dia {
+.magenta-chenin-dia {
+  background: linear-gradient(to bottom right, #FF00FF, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.magenta-olive-dia {
   background: linear-gradient(to bottom right, #FF00FF, #808000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-lime-dia {
+.magenta-lime-dia {
   background: linear-gradient(to bottom right, #FF00FF, #00FF00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-green-dia {
+.magenta-green-dia {
   background: linear-gradient(to bottom right, #FF00FF, #008000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-aqua-dia {
-  background: linear-gradient(to bottom right, #FF00FF, #00FFFF);
+.magenta-emerald-dia {
+  background: linear-gradient(to bottom right, #FF00FF, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-teal-dia {
+.magenta-teal-dia {
   background: linear-gradient(to bottom right, #FF00FF, #008080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-blue-dia {
+.magenta-aqua-dia {
+  background: linear-gradient(to bottom right, #FF00FF, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.magenta-blue-dia {
   background: linear-gradient(to bottom right, #FF00FF, #0000FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-navy-dia {
+.magenta-navy-dia {
   background: linear-gradient(to bottom right, #FF00FF, #000080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fuchsia-purple-dia {
+.magenta-purple-dia {
   background: linear-gradient(to bottom right, #FF00FF, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.fuchsia-chenin-dia {
-  background: linear-gradient(to bottom right, #FF00FF, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.fuchsia-emerald-dia {
-  background: linear-gradient(to bottom right, #FF00FF, #4fcc73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3928,6 +5173,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.purple-chenin-dia {
+  background: linear-gradient(to bottom right, #800080, #E3DF7A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .purple-olive-dia {
   background: linear-gradient(to bottom right, #800080, #808000);
   -webkit-background-clip: text;
@@ -3943,13 +5193,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.purple-aqua-dia {
-  background: linear-gradient(to bottom right, #800080, #00FFFF);
+.purple-emerald-dia {
+  background: linear-gradient(to bottom right, #800080, #4FCC73);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .purple-teal-dia {
   background: linear-gradient(to bottom right, #800080, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple-aqua-dia {
+  background: linear-gradient(to bottom right, #800080, #00FFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3963,198 +5218,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.purple-fuchsia-dia {
+.purple-magenta-dia {
   background: linear-gradient(to bottom right, #800080, #FF00FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.purple-chenin-dia {
-  background: linear-gradient(to bottom right, #800080, #e3df7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.purple-emerald-dia {
-  background: linear-gradient(to bottom right, #800080, #4fcc73);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-white-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #FFFFFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-silver-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #C0C0C0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-gray-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #808080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-black-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-red-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #FF0000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-maroon-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #800000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-orange-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #F47E22);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-yellow-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #FFFF00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-olive-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #808000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-lime-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #00FF00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-green-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #008000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-aqua-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #00FFFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-teal-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #008080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-blue-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #0000FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-navy-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #000080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-fuchsia-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #FF00FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-purple-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.chenin-emerald-dia {
-  background: linear-gradient(to bottom right, #e3df7a, #4fcc73);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-white-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #FFFFFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-silver-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #C0C0C0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-gray-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #808080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-black-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-red-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #FF0000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-maroon-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #800000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-orange-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #F47E22);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-yellow-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #FFFF00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-olive-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #808000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-lime-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #00FF00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-green-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #008000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-aqua-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #00FFFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-teal-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #008080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-blue-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #0000FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-navy-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #000080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-fuchsia-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #FF00FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-purple-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #800080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.emerald-chenin-dia {
-  background: linear-gradient(to bottom right, #4fcc73, #e3df7a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
